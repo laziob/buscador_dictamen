@@ -33,7 +33,7 @@ def buscar():
             dialect='standard'
             )
         print(dataframe)
-        return render_template('search.html',  tables=[dataframe.to_html(classes='data', header="true", index='false', justify='center')])
+        return render_template('search.html',  tables=[dataframe.to_html(classes='data', header="true", columns=["titulo", "link"], justify='center')])
     return render_template('search.html')
 
 
