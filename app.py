@@ -39,8 +39,8 @@ def buscar():
             dialect='standard'
             )
         print(dataframe)
-        return render_template('search.html',  tables=[dataframe.to_html(classes='data', header='true', columns=['titulo', 'link'], justify='center', render_links='true')])
-    return render_template('search.html')
+        return render_template('index.html',  tables=[dataframe.to_html(classes='data', header='true', columns=['titulo', 'link'], justify='center', render_links='true')])
+    return render_template('index.html')
 
 
 if __name__ == "__main__":
