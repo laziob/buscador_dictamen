@@ -74,7 +74,7 @@ request==2019.4.13
 requests==2.22.0
 requests-file==1.4.3
 requests-oauthlib==1.2.0
-rsa==3.4.2
+rsa==4.1
 s3transfer==0.2.1
 Scrapy==1.7.3
 service-identity==18.1.0
