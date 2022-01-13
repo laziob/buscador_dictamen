@@ -50,7 +50,7 @@ oauthlib==3.1.0
 pandas==0.25.1
 pandas-gbq==0.11.0
 parsel==1.5.2
-Pillow==6.2.0
+Pillow==9.0.0
 plac==1.1.0
 post==2019.4.13
 protobuf==3.10.0
