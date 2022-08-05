@@ -55,7 +55,7 @@ plac==1.1.0
 post==2019.4.13
 protobuf==3.10.0
 public==2019.4.13
-pyarrow==0.14.1
+pyarrow==0.15.1
 pyasn1==0.4.7
 pyasn1-modules==0.2.6
 pycparser==2.19
